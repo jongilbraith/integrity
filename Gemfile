@@ -10,7 +10,7 @@ gem "bcrypt-ruby", "2.1.2"
 gem "uuidtools", "2.1.1"
 gem "extlib", "0.9.14"
 gem "data_objects", "0.10.1"
-gem "do_sqlite3", "0.10.1"
+gem "do_mysql", "0.10.1"
 gem "rake"
 gem "haml", "2.2.17"
 gem "thor", "0.9.9"
@@ -37,7 +37,7 @@ gem "sinatra-authorization", "1.0.0"
 
 # Uncomment if you're using pg or mysql instead of sqlite
 # gem "pg"
-# gem "mysql"
+gem "mysql"
 
 # = Development dependencies.
 group :test do
