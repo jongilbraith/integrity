@@ -56,6 +56,9 @@ end
 
 namespace :dj do
   task :restart do
-    run "sudo /usr/local/bin/monit restart delayed_job_integrity_econsultancy"
+    run "sudo /usr/local/bin/monit restart delayed_job_integrity_econsultancy_1"
+    run "sudo /usr/local/bin/monit restart delayed_job_integrity_econsultancy_2"
+    run "sudo /usr/local/bin/monit restart delayed_job_integrity_econsultancy_3"
+    run "sudo /usr/local/bin/monit restart delayed_job_integrity_econsultancy_4"
   end
 end
